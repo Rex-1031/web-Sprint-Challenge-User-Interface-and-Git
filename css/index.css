@@ -66,6 +66,36 @@ p {
     line-height: 1.4;
 }
 
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 0 400px;
+    padding: 1%;
+  
+}
+.jumbo{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 50%;
+    }
+
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.navhead {
+list-style: none;
+}
+.navhead li {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+ 
+ 
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +142,43 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box{
+    background-color: teal;
+}
+.middle-content .boxes .box+.box{
+    background-color:gold;
+}
+
+.middle-content .boxes .box+.box+.box{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box+.box+.box+.box{
+    background-color:coral;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box{
+    background-color:crimson;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box+.box{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box+.box+.box{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +211,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* -------------about CSS----------------------------------*/
+
+
+.body-about{
+width: 60%;
+margin: 0 350px;
+}
+
+.mainheader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 1%;
+}
+button{
+    background-color: white;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 0.3125rem;
+}
+.about-page{
+   margin: auto;
+}
+.about-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  
+}
+.about-main div{
+    width: 45%;
+    padding: 20px;
+    border-bottom: 1px dashed black;  
+}
+
+.about-main div p{
+    width: 100%;
+    padding: 1%;
+}
+.about-content{
+  margin:  0 auto;
+  padding: 30px;
+  border-bottom: 1px dashed black;  
+}
+.jumbo2{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+    height: auto;
+    }
