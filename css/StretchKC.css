@@ -1,0 +1,90 @@
+/* color palette:
+
+#f3f5f7 #8a8e89 #9cb2b7 #8d9ba1 #437c8c
+
+
+*/
+
+*{
+    border: solid red 1px;
+ 
+  }
+  body{
+    background-color: #437C8C;
+    color: #F3F5F7;
+  }
+  
+  header{
+    background-color: #9CB2B7;
+    color: #F3F5F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header div a{
+  text-decoration: none;
+  color:#437C8C ;
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 50px;
+  }
+
+  .topImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .topInfo{
+    background-color: #244149;
+  }
+
+  .servInfo{
+    display: block;
+  }
+  
+  .services{
+  margin: 0 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  }
+  .services div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+  }
+
+   .services, .card img{
+    width: 400px;
+  }
+  .card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  footer{
+    background-color: #9CB2B7;
+    color: #F3F5F7;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  footer div a{
+   
+    color: #437C8C;
+    font-size: 20px;
+  }
