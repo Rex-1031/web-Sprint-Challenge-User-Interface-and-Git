@@ -5,13 +5,33 @@
 
 */
 
-*{
-    border: solid red 1px;
+
  
+  html{
+    font-size: 62.5%;
   }
+  h1{
+    font-size: 4rem;
+    margin: 15px 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h2, h3{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h4{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
   body{
     background-color: #437C8C;
     color: #F3F5F7;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+
   }
   
   header{
@@ -20,7 +40,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
   }
+  
   header div a{
   text-decoration: none;
   color:#437C8C ;
@@ -29,62 +51,92 @@
   padding: 14px 50px;
   }
 
+  header div a:hover{
+    color: #F3F5F7;
+  }
   .topImg{
     width: 100%;
     height: 150px;
     object-fit: cover;
+    border-radius: 5px;
+    margin: 0% auto;
   }
 
   .topInfo{
+    display: inline-block;
     background-color: #244149;
+    border-radius: 5px;
+    margin: 10px 10px;
+    text-align: center;
   }
-
+  
   .servInfo{
     display: block;
+    text-align: center;
   }
   
   .services{
-  margin: 0 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
+   justify-content: space-evenly;
+   margin: 20px auto;
+ 
   }
   .services div{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
-  }
-
-   .services, .card img{
+    padding: 10px 10px;
     width: 400px;
+    background-color: #8D9BA1;
+    border-radius: 10px;
+  
   }
-  .card {
+  .services img{
    
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    width: 400px;
+    border-radius: 10px;
+  }
+  .services div p{
+    display: inline-block;
+    width: auto;
   }
   
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  
-  .container {
-    padding: 2px 16px;
-  }
+ button{
+   padding: 10px 15px;
+   border-radius: 5px;
+   background-color: #437C8C;
+   color: #F3F5F7;
+ }
+
+ button:hover{
+   opacity: 0.5;
+ }
 
   footer{
     background-color: #9CB2B7;
     color: #F3F5F7;
     text-align: center;
     text-decoration: none;
+    border-radius: 5px;
+  }
+ 
+
+  .work div{
+    display: inline-block;
+    text-align: center;
+    background-color: #244149;
+    border-radius: 5px;
+  
   }
   
   footer div a{
    
     color: #437C8C;
     font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  footer div a:hover{
+    color: #F3F5F7;
   }
